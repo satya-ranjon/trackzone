@@ -47,11 +47,11 @@ export default function App() {
         updateClock={updateLocalClock}
         createClock={createClock}
       />
-      <ClockList
+      {/* <ClockList
         clockList={clockList}
         updateClock={updateCreateClock}
         deleteClock={deleteClock}
-      />
+      /> */}
     </div>
   );
 }
